@@ -1,0 +1,10 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  test:
+    dir: test
+    desc: Run go tests
+    cmds:
+      - go test -v
